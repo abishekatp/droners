@@ -1,0 +1,12 @@
+[build]
+target = "avr-specs/avr-atmega328p.json"
+
+[target.'cfg(target_arch = "avr")']
+# runner = "ravedude uno -cb 57600"
+runner = "ravedude uno --open-console --baudrate 57600"
+# both the above commands are working so we don't need below one
+# from here I got this: https://medium.com/@ninjapiraatti/programming-arduino-with-rust-on-mac-7c7536f3973d
+# runner = "ravedude uno -P /dev/tty.usbmodem12301 - open-console - baudrate 57600"
+
+[unstable]
+build-std = ["core"]
