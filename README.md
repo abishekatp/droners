@@ -1,5 +1,5 @@
 # droners
-This is a repo wehre we are planning to write code for quadcopter.
+In this repo I am planning to write some rust code on arduino.
 
 # Project setup:
 - Installing needed third party toolchains for mac - 
