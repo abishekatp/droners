@@ -1,4 +1,4 @@
-In this repo I am planning to write some rust code on arduino.
+In this repo I am planning to write some rust code on arduino.(Just for learning)
 
 # Project setup:
 - Installing needed third party toolchains for mac - 
