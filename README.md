@@ -1,4 +1,3 @@
-# droners
 In this repo I am planning to write some rust code on arduino.
 
 # Project setup:
